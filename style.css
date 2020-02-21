@@ -25,3 +25,59 @@ body {
 }
 
 
+
+
+.main {
+    background: url(images/main2.jpg) no-repeat center center;
+    background-size: cover;
+    height: calc(91vh - 88px);
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5%;
+}
+
+.main h1 {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    letter-spacing: 11px;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+.main a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: 380px;
+    height: 60px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px 50px;
+    text-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.main a:hover {
+    transition: 0.9s ease;
+    transform: scale(1.1);
+}
+
