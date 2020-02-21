@@ -231,3 +231,67 @@ body {
 
 }
 
+.professional {
+    background: url(images/tree.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+
+    opacity: 0.7;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: auto;
+    color: white;
+
+    border-radius: 15px 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.professional h3 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.inputt {
+    border: 0;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    outline: none;
+
+    width: 280px;
+    height: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.submit {
+    background-color: rgb(228, 161, 60);
+    outline: none;
+    color: rgba(255, 255, 254, 0.884);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.submit:hover {
+    transition: 0.8s ease;
+    transform: scale(1.1);
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+
